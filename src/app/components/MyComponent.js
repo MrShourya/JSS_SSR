@@ -6,11 +6,12 @@ class MyComponent extends React.Component {
         super(props);
         this.state = {
             show: false,
+            recievedProps: JSON.stringify(this.props)
         };
         this.change = this.change.bind(this);
     }
 
-    
+
 
     change() {
         this.setState(prevState => ({
@@ -26,6 +27,10 @@ class MyComponent extends React.Component {
                 <button onClick={this.change} > Click here! </button>
                 {this.state.show ?
                     <p>Yo Yo Honey Singh! </p> : null}
+                <hr />
+                <div>
+                    {this.state.recievedProps}
+                </div>
             </div>
         )
     }
