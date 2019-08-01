@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "C:\\inetpub\\wwwroot\\sc910.sc",
+    "layoutServiceHost": "http://sc910.sc",
+    "deployUrl": "http://sc910.sc/sitecore/api/jss/import",
+    "apiKey": "{A2BAB78B-5EDF-4DEC-A46A-A58EDF49F069}",
+    "deploySecret": "p14kmtc30c20kvazmfp4n529cd2e8fyp3sun2xk2way"
+  }
+}
